@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fill in the form below: "
+        android:id="@+id/titleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="25dp"
+
+
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleTextView"
+        android:id="@+id/noun"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="write a name"
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noun"
+        android:id="@+id/nounTwo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="write another name"
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nounTwo"
+        android:id="@+id/adjective"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="write an adjective"
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adjective"
+        android:id="@+id/adjectiveTwo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="write another adjective"
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adjectiveTwo"
+        android:id="@+id/verb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="write a verb"
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/verb"
+        android:id="@+id/adverb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="write an adverb"
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adverb"
+        android:id="@+id/exclamation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="write an exclamation"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exclamation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="create"
+        android:background="@drawable/roundedbutton"
+        android:textColor="@color/white"
+        android:id="@+id/create"
+        />
+
+</RelativeLayout>
